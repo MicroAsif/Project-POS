@@ -16,4 +16,4 @@ one kind of point of sale
 
 
 
-+[Asif Rahman](http://asifrahman.net)
+By: [Asif Rahman](http://asifrahman.net)
