@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,15 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BussinessObject\Customer.cs" />
-    <Compile Include="BussinessObject\StoreSetting.cs" />
-    <Compile Include="BussinessObject\Supplier.cs" />
+    <Compile Include="BusinessLogiclayer\BusinessLogicLayer.cs" />
+    <Compile Include="BusinessObject\Customer.cs" />
+    <Compile Include="BusinessObject\StoreSetting.cs" />
+    <Compile Include="BusinessObject\Supplier.cs" />
+    <Compile Include="Helper\DbConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BussinessLogiclayer\" />
-    <Folder Include="Helper\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
