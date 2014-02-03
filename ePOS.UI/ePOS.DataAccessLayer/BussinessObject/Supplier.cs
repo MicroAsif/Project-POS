@@ -97,11 +97,8 @@ namespace ePOS.DataAccessLayer.BussinessObject
            get { return _SupplierRemark; }
            set { _SupplierRemark = value; }
        }
-        
-        
-        
-         
-        
+
+      
 
         
 
