@@ -54,6 +54,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\StoreSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\StoreSetting.Designer.cs">
+      <DependentUpon>StoreSetting.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DashBoard.resx">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +72,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\StoreSetting.resx">
+      <DependentUpon>StoreSetting.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,7 +86,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UI\" />
+    <Folder Include="UI\Customer\" />
+    <Folder Include="UI\Employee\" />
+    <Folder Include="UI\Supplier\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ePOS.DataAccessLayer\ePOS.DataAccessLayer.csproj">
